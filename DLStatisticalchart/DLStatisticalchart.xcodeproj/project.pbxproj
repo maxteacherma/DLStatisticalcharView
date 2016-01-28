@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC582B71C520F4000F608F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC582B61C520F4000F608F4 /* main.m */; };
+		FAC582BA1C520F4000F608F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC582B91C520F4000F608F4 /* AppDelegate.m */; };
+		FAC582BD1C520F4000F608F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC582BC1C520F4000F608F4 /* ViewController.m */; };
+		FAC582C01C520F4000F608F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC582BE1C520F4000F608F4 /* Main.storyboard */; };
+		FAC582C21C520F4000F608F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC582C11C520F4000F608F4 /* Assets.xcassets */; };
+		FAC582C51C520F4000F608F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC582C31C520F4000F608F4 /* LaunchScreen.storyboard */; };
+		FAC582D01C520F4000F608F4 /* DLStatisticalchartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC582CF1C520F4000F608F4 /* DLStatisticalchartTests.m */; };
+		FAC582DB1C520F4000F608F4 /* DLStatisticalchartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC582DA1C520F4000F608F4 /* DLStatisticalchartUITests.m */; };
+		FAC582EB1C52121E00F608F4 /* DLBaseStatisticalchartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC582EA1C52121E00F608F4 /* DLBaseStatisticalchartView.m */; };
+		FAC582EE1C522C0100F608F4 /* DLLineCharView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC582ED1C522C0100F608F4 /* DLLineCharView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC582CC1C520F4000F608F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC582AA1C520F4000F608F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC582B11C520F4000F608F4;
+			remoteInfo = DLStatisticalchart;
+		};
+		FAC582D71C520F4000F608F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC582AA1C520F4000F608F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC582B11C520F4000F608F4;
+			remoteInfo = DLStatisticalchart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC582B21C520F4000F608F4 /* DLStatisticalchart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLStatisticalchart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC582B61C520F4000F608F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC582B81C520F4000F608F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAC582B91C520F4000F608F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAC582BB1C520F4000F608F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAC582BC1C520F4000F608F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAC582BF1C520F4000F608F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC582C11C520F4000F608F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC582C41C520F4000F608F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC582C61C520F4000F608F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC582CB1C520F4000F608F4 /* DLStatisticalchartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLStatisticalchartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC582CF1C520F4000F608F4 /* DLStatisticalchartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLStatisticalchartTests.m; sourceTree = "<group>"; };
+		FAC582D11C520F4000F608F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC582D61C520F4000F608F4 /* DLStatisticalchartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLStatisticalchartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC582DA1C520F4000F608F4 /* DLStatisticalchartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLStatisticalchartUITests.m; sourceTree = "<group>"; };
+		FAC582DC1C520F4000F608F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC582E91C52121E00F608F4 /* DLBaseStatisticalchartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLBaseStatisticalchartView.h; sourceTree = "<group>"; };
+		FAC582EA1C52121E00F608F4 /* DLBaseStatisticalchartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLBaseStatisticalchartView.m; sourceTree = "<group>"; };
+		FAC582EC1C522C0100F608F4 /* DLLineCharView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLineCharView.h; sourceTree = "<group>"; };
+		FAC582ED1C522C0100F608F4 /* DLLineCharView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLineCharView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC582AF1C520F4000F608F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC582C81C520F4000F608F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC582D31C520F4000F608F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC582A91C520F4000F608F4 = {
+			isa = PBXGroup;
+			children = (
+				FAC582B41C520F4000F608F4 /* DLStatisticalchart */,
+				FAC582CE1C520F4000F608F4 /* DLStatisticalchartTests */,
+				FAC582D91C520F4000F608F4 /* DLStatisticalchartUITests */,
+				FAC582B31C520F4000F608F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC582B31C520F4000F608F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC582B21C520F4000F608F4 /* DLStatisticalchart.app */,
+				FAC582CB1C520F4000F608F4 /* DLStatisticalchartTests.xctest */,
+				FAC582D61C520F4000F608F4 /* DLStatisticalchartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC582B41C520F4000F608F4 /* DLStatisticalchart */ = {
+			isa = PBXGroup;
+			children = (
+				FAC582E81C52105D00F608F4 /* DLStatisticalchartView */,
+				FAC582B81C520F4000F608F4 /* AppDelegate.h */,
+				FAC582B91C520F4000F608F4 /* AppDelegate.m */,
+				FAC582BB1C520F4000F608F4 /* ViewController.h */,
+				FAC582BC1C520F4000F608F4 /* ViewController.m */,
+				FAC582BE1C520F4000F608F4 /* Main.storyboard */,
+				FAC582C11C520F4000F608F4 /* Assets.xcassets */,
+				FAC582C31C520F4000F608F4 /* LaunchScreen.storyboard */,
+				FAC582C61C520F4000F608F4 /* Info.plist */,
+				FAC582B51C520F4000F608F4 /* Supporting Files */,
+			);
+			path = DLStatisticalchart;
+			sourceTree = "<group>";
+		};
+		FAC582B51C520F4000F608F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC582B61C520F4000F608F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAC582CE1C520F4000F608F4 /* DLStatisticalchartTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC582CF1C520F4000F608F4 /* DLStatisticalchartTests.m */,
+				FAC582D11C520F4000F608F4 /* Info.plist */,
+			);
+			path = DLStatisticalchartTests;
+			sourceTree = "<group>";
+		};
+		FAC582D91C520F4000F608F4 /* DLStatisticalchartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC582DA1C520F4000F608F4 /* DLStatisticalchartUITests.m */,
+				FAC582DC1C520F4000F608F4 /* Info.plist */,
+			);
+			path = DLStatisticalchartUITests;
+			sourceTree = "<group>";
+		};
+		FAC582E81C52105D00F608F4 /* DLStatisticalchartView */ = {
+			isa = PBXGroup;
+			children = (
+				FAC582E91C52121E00F608F4 /* DLBaseStatisticalchartView.h */,
+				FAC582EA1C52121E00F608F4 /* DLBaseStatisticalchartView.m */,
+				FAC582EC1C522C0100F608F4 /* DLLineCharView.h */,
+				FAC582ED1C522C0100F608F4 /* DLLineCharView.m */,
+			);
+			path = DLStatisticalchartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC582B11C520F4000F608F4 /* DLStatisticalchart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC582DF1C520F4000F608F4 /* Build configuration list for PBXNativeTarget "DLStatisticalchart" */;
+			buildPhases = (
+				FAC582AE1C520F4000F608F4 /* Sources */,
+				FAC582AF1C520F4000F608F4 /* Frameworks */,
+				FAC582B01C520F4000F608F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLStatisticalchart;
+			productName = DLStatisticalchart;
+			productReference = FAC582B21C520F4000F608F4 /* DLStatisticalchart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC582CA1C520F4000F608F4 /* DLStatisticalchartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC582E21C520F4000F608F4 /* Build configuration list for PBXNativeTarget "DLStatisticalchartTests" */;
+			buildPhases = (
+				FAC582C71C520F4000F608F4 /* Sources */,
+				FAC582C81C520F4000F608F4 /* Frameworks */,
+				FAC582C91C520F4000F608F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC582CD1C520F4000F608F4 /* PBXTargetDependency */,
+			);
+			name = DLStatisticalchartTests;
+			productName = DLStatisticalchartTests;
+			productReference = FAC582CB1C520F4000F608F4 /* DLStatisticalchartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC582D51C520F4000F608F4 /* DLStatisticalchartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC582E51C520F4000F608F4 /* Build configuration list for PBXNativeTarget "DLStatisticalchartUITests" */;
+			buildPhases = (
+				FAC582D21C520F4000F608F4 /* Sources */,
+				FAC582D31C520F4000F608F4 /* Frameworks */,
+				FAC582D41C520F4000F608F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC582D81C520F4000F608F4 /* PBXTargetDependency */,
+			);
+			name = DLStatisticalchartUITests;
+			productName = DLStatisticalchartUITests;
+			productReference = FAC582D61C520F4000F608F4 /* DLStatisticalchartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC582AA1C520F4000F608F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DLD;
+				TargetAttributes = {
+					FAC582B11C520F4000F608F4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FAC582CA1C520F4000F608F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAC582B11C520F4000F608F4;
+					};
+					FAC582D51C520F4000F608F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAC582B11C520F4000F608F4;
+					};
+				};
+			};
+			buildConfigurationList = FAC582AD1C520F4000F608F4 /* Build configuration list for PBXProject "DLStatisticalchart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC582A91C520F4000F608F4;
+			productRefGroup = FAC582B31C520F4000F608F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC582B11C520F4000F608F4 /* DLStatisticalchart */,
+				FAC582CA1C520F4000F608F4 /* DLStatisticalchartTests */,
+				FAC582D51C520F4000F608F4 /* DLStatisticalchartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC582B01C520F4000F608F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC582C51C520F4000F608F4 /* LaunchScreen.storyboard in Resources */,
+				FAC582C21C520F4000F608F4 /* Assets.xcassets in Resources */,
+				FAC582C01C520F4000F608F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC582C91C520F4000F608F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC582D41C520F4000F608F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC582AE1C520F4000F608F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC582EB1C52121E00F608F4 /* DLBaseStatisticalchartView.m in Sources */,
+				FAC582BD1C520F4000F608F4 /* ViewController.m in Sources */,
+				FAC582BA1C520F4000F608F4 /* AppDelegate.m in Sources */,
+				FAC582B71C520F4000F608F4 /* main.m in Sources */,
+				FAC582EE1C522C0100F608F4 /* DLLineCharView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC582C71C520F4000F608F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC582D01C520F4000F608F4 /* DLStatisticalchartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC582D21C520F4000F608F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC582DB1C520F4000F608F4 /* DLStatisticalchartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC582CD1C520F4000F608F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC582B11C520F4000F608F4 /* DLStatisticalchart */;
+			targetProxy = FAC582CC1C520F4000F608F4 /* PBXContainerItemProxy */;
+		};
+		FAC582D81C520F4000F608F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC582B11C520F4000F608F4 /* DLStatisticalchart */;
+			targetProxy = FAC582D71C520F4000F608F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC582BE1C520F4000F608F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC582BF1C520F4000F608F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC582C31C520F4000F608F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC582C41C520F4000F608F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC582DD1C520F4000F608F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAC582DE1C520F4000F608F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC582E01C520F4000F608F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DLStatisticalchart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.DLStatisticalchart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAC582E11C520F4000F608F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DLStatisticalchart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.DLStatisticalchart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAC582E31C520F4000F608F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DLStatisticalchartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.DLStatisticalchartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLStatisticalchart.app/DLStatisticalchart";
+			};
+			name = Debug;
+		};
+		FAC582E41C520F4000F608F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DLStatisticalchartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.DLStatisticalchartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLStatisticalchart.app/DLStatisticalchart";
+			};
+			name = Release;
+		};
+		FAC582E61C520F4000F608F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DLStatisticalchartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.DLStatisticalchartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DLStatisticalchart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAC582E71C520F4000F608F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DLStatisticalchartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.DLStatisticalchartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DLStatisticalchart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC582AD1C520F4000F608F4 /* Build configuration list for PBXProject "DLStatisticalchart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC582DD1C520F4000F608F4 /* Debug */,
+				FAC582DE1C520F4000F608F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC582DF1C520F4000F608F4 /* Build configuration list for PBXNativeTarget "DLStatisticalchart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC582E01C520F4000F608F4 /* Debug */,
+				FAC582E11C520F4000F608F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAC582E21C520F4000F608F4 /* Build configuration list for PBXNativeTarget "DLStatisticalchartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC582E31C520F4000F608F4 /* Debug */,
+				FAC582E41C520F4000F608F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAC582E51C520F4000F608F4 /* Build configuration list for PBXNativeTarget "DLStatisticalchartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC582E61C520F4000F608F4 /* Debug */,
+				FAC582E71C520F4000F608F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC582AA1C520F4000F608F4 /* Project object */;
+}
